@@ -50,6 +50,10 @@ nav ul li{
     background:green;
 }
 
+.article{
+    color:white;
+}
+
 footer{
     background: black;
     color: white;
