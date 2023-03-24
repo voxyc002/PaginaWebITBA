@@ -1,0 +1,12 @@
+
+body{
+    background: red;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#container{
+    width: 70%;
+    width: 1100px;
+    margin: 0px auto;
+
+}
