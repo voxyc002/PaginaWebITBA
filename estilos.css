@@ -100,3 +100,11 @@ footer{
     }
 
 }
+
+@media screen and (max-width: 457px){
+
+    aside {
+        width: 100%;
+    }
+}
+
