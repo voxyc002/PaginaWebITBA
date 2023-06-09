@@ -5,7 +5,7 @@ body {
 header {
     height: 100px;
     width: 100%;
-    margin: 0px;
+    margin: 0;
     text-align: center;
     line-height: 100px;
 }
@@ -68,7 +68,6 @@ iframe {
     border: 0;
 }
 
-
 footer {
     background: rgb(230, 230, 230);
     color:black;
@@ -83,11 +82,46 @@ footer i {
     color: white;
 }
 
+.container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    height: 600px;
+    background-color: #eaeaea;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     #content {
         width: 100%;
     }
-    
+
     iframe {
         height: 300px;
     }
