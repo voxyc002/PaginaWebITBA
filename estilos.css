@@ -11,16 +11,27 @@ header {
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     height: 50px; 
     border-bottom: 1px solid black;
 }
 
-nav ul li {
-    float: left;
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    padding: 0;
+  }
+
+nav ul li {
     margin: 10px;
-    line-height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .clearfix {
@@ -40,7 +51,6 @@ nav ul li {
     height: auto;
     box-sizing: border-box;
 }
-
 
 .article {
     color: black;
@@ -84,20 +94,19 @@ footer i {
 }
 
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.container a {
+    text-decoration: none;
 }
 
 .box {
-    flex: 1;
     height: 600px;
     background-color: #eaeaea;
-    margin-right: 20px;
-    box-sizing: border-box;
     padding: 20px;
-}
-
-.box:last-child {
-    margin-right: 0;
 }
 
 .title {
@@ -108,12 +117,10 @@ footer i {
 
 @media screen and (max-width: 600px) {
     .container {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
 
     .box {
-        width: 100%;
-        margin-right: 0;
         margin-bottom: 20px;
     }
 }

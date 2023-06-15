@@ -209,10 +209,23 @@ header{
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 700;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
+
+footer {
+    background: rgb(230, 230, 230);
+    color:black;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+}
 
 
 
