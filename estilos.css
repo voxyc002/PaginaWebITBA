@@ -1,5 +1,6 @@
 body {
     background: white;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -14,6 +15,7 @@ nav {
     background-color: rgb(230, 230, 230);
     height: 50px; 
     border-bottom: 1px solid black;
+    font-family: "Roboto", sans-serif;
 }
 
 nav ul li {
@@ -21,6 +23,7 @@ nav ul li {
     list-style: none;
     margin: 10px;
     line-height: 30px;
+    font-family: "Roboto", sans-serif;
 }
 
 nav a {
@@ -37,6 +40,7 @@ nav a {
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 #content img {
@@ -47,6 +51,7 @@ nav a {
 
 .article {
     color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 section#map {
@@ -54,16 +59,19 @@ section#map {
     text-align: center;
     margin: 20px 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 section#map h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 section#map p {
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 iframe {
@@ -78,12 +86,14 @@ footer {
     height: 50px;
     line-height: 50px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 footer i {
     margin: 0 10px;
     font-size: 20px;
     color: white;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -94,6 +104,7 @@ footer i {
 
 .container a {
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 .box1,
@@ -105,6 +116,7 @@ footer i {
     margin-right: 20px;
     box-sizing: border-box;
     padding: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 .box3 {
@@ -115,6 +127,7 @@ footer i {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 @media screen and (max-width: 850px) {
